@@ -1,25 +1,20 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+import Typography from '@material-ui/core/Typography';
+//import Mycomponent from './components/Mycomponent';
+import Header from './components/Header';
+import TrainableModel from './components/TrainableModel';
+import MLSettings from './components/MLsettings';
+import {withStyles} from '@material-ui/core/styles';
+import Dashboard from './components/Dashboard';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div >
+       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" />
+       <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.0/dist/tf.min.js"></script>
+       <Dashboard />
       </div>
     );
   }
