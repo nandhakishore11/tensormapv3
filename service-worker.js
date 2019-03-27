@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/tensormapv3/precache-manifest.6cdb728d2d35c292f5e4ba7af788fd41.js"
+  "/tensormapv3/precache-manifest.fde0dc6985f170036ad8b4d5b344c071.js"
 );
 
 workbox.clientsClaim();
