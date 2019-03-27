@@ -275,7 +275,7 @@ class Dashboard extends React.Component {
               noWrap
               className={classes.title}
             >
-              TensorMAP
+              Demo
             </Typography>
             <TargetContainer>
             <TextField  label="Learning Rate"
